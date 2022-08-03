@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Reacte</title>
+    <title>TODO</title>
 </head>
 <body>
     <header>
@@ -16,18 +16,31 @@
 
             <div class="nav">
                 <ul class="nav__list">
-                    <li class="nav__list--item">menu</li>
-                    <li class="nav__list--item">menu</li>
-                    <li class="nav__list--item">menu</li>
-                    <li class="nav__list--item">menu</li>
-                    <li class="nav__list--item">menu</li>
+                    <li class="nav__list-item">menu</li>
+                    <li class="nav__list-item">menu</li>
+                    <li class="nav__list-item">menu</li>
+                    <li class="nav__list-item">menu</li>
+                    <li class="nav__list-item">menu</li>
                 </ul>
             </div>
         </div>
     </header>
 
     <main>
-        <p>hello</p>
+        <div class="input-area">
+            <input id="add-txt" placeholder="TODOを入力" />
+            <button id="add-btn">追加</button>
+        </div>
+
+        <div class="incomplete-area">
+            <p class="ttl">未完了のTODO</p>
+            <ul id="incomplete-list"></ul>
+        </div>
+
+        <div class="complete-area">
+            <p class="ttl">完了したTODO</p>
+            <ul id="complete-list"></ul>
+        </div>
     </main>
 
     <footer>
